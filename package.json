@@ -1,6 +1,6 @@
 {
   "name": "gitio-cli",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "lib/gitio.js",
   "description": "A simple CLI to get your own custom git.io domain",
   "homepage": "http://git.io",
