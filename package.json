@@ -1,0 +1,40 @@
+{
+  "name": "gitio-cli",
+  "version": "0.0.0",
+  "main": "lib/gitio.js",
+  "description": "A simple CLI to get your own custom git.io domain",
+  "homepage": "http://git.io",
+  "bugs": "https://github.com/krrishd/gitio/issues",
+  "author": {
+    "name": "Krish Dholakiya",
+    "email": "krishna.dholakiya@gmail.com",
+    "url": "http://www.itskrish.co"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krrishd/gitio"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [],
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1",
+    "jshint-stylish": "^0.2.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "gitio": "lib/gitio.js"
+  },
+  "dependencies": {
+    "request": "^2.36.0"
+  }
+}
