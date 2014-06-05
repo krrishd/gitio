@@ -3,24 +3,20 @@
 A simple CLI to get your own custom git.io domain
 
 ## Getting Started
-Install the module with: `npm install gitio`
+Install the module with: `npm install -g gitio-cli`
 
-```javascript
-var gitio = require('gitio');
-gitio.awesome(); // "awesome"
+To create a new git.io URL:
+
+```bash
+$ gitio 'http://github.com/your-project-url' 'your-short-url-path'
 ```
 
-## Documentation
-_(Coming soon)_
-
 ## Examples
-_(Coming soon)_
+If I wanted to make `http://git.io/krish` redirect to `http://github.com/krrishd`:
 
-## Contributing
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
-
-## Release History
-_(Nothing yet)_
+```bash
+$ gitio 'http://github.com/krrishd' 'krish'
+```
 
 ## License
 Copyright (c) 2014 Krish Dholakiya. Licensed under the MIT license.
