@@ -18,5 +18,7 @@ If I wanted to make `http://git.io/krish` redirect to `http://github.com/krrishd
 $ gitio 'http://github.com/krrishd' 'krish'
 ```
 
+**Note:** If you've already inputted a GitHub URL through the default webservice, this CLI will just give you the short URL that was originally generated. To bypass it, use a minor variation of the URL you're trying to shorten: for example, change http://github.com/krrishd to http://github.com/krrishd?v1.
+
 ## License
 Copyright (c) 2014 Krish Dholakiya. Licensed under the MIT license.
